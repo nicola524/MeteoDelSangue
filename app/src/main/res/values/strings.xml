@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Meteo del Sangue</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_info">Info</string>
+    <string name="action_reload">Reload</string>
+    <string name="title_activity_spalsh">Meteo del Sangue</string>
+    <string name="title_activity_info">Info</string>
+    <string name="title_activity_legenda">Legenda</string>
+    <string name="action_legenda">Legenda</string>
+
+</resources>

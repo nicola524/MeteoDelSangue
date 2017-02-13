@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.nicolab.meteodelsangue.app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="it.nicolab.meteodelsangue.app.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="it.nicolab.meteodelsangue.app.SplashActivity"
+            android:label="@string/title_activity_spalsh"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="it.nicolab.meteodelsangue.app.InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name="it.nicolab.meteodelsangue.app.LegendaActivity"
+            android:label="@string/title_activity_legenda" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
